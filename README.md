@@ -76,7 +76,7 @@ In the UI:
 Use this when the recruiter or user provides a job description and wants resumes ranked specifically for that role.
 
 ```bash
-python -m src.screen --job-file data/sample_job_description.txt --resumes "C:\Users\deepu\Downloads\resume_prolifics.pdf"
+python -m src.screen --job-file data/sample_job_description.txt --resumes "C:\Users\deepu\Downloads\resume_.pdf"
 ```
 
 You can also pass a whole folder of resumes:
@@ -88,7 +88,7 @@ python -m src.screen --job-file data/sample_job_description.txt --resumes "C:\Us
 Or provide the job description inline:
 
 ```bash
-python -m src.screen --job-description "Python NLP engineer with scikit-learn, TF-IDF, model evaluation, and resume parsing experience" --resumes "C:\Users\deepu\Downloads\resume_prolifics.pdf"
+python -m src.screen --job-description "Python NLP engineer with scikit-learn, TF-IDF, model evaluation, and resume parsing experience" --resumes "C:\Users\deepu\Downloads\resume_.pdf"
 ```
 
 The output includes:
@@ -119,7 +119,7 @@ python -m src.predict --model models/resume_classifier.joblib --text "Built REST
 Predict from a PDF or text resume:
 
 ```bash
-python -m src.predict --model models/resume_classifier.joblib --file "C:\Users\deepu\Downloads\resume_prolifics.pdf"
+python -m src.predict --model models/resume_classifier.joblib 
 ```
 
 ## Dataset Format
