@@ -1,0 +1,18 @@
+We are hiring a Python NLP / Machine Learning Engineer to build an AI resume screening system.
+
+Responsibilities:
+- Build text classification and ranking pipelines for resumes and job descriptions.
+- Use Python, scikit-learn, pandas, TF-IDF, cosine similarity, Logistic Regression, and Naive Bayes.
+- Extract skills and keywords from unstructured PDF and text resumes.
+- Evaluate model quality with accuracy, precision, recall, and F1 score.
+- Improve recommendations through feature engineering and hyperparameter optimization.
+
+Required skills:
+- Python
+- Natural language processing
+- Machine learning
+- Scikit-learn
+- TF-IDF vectorization
+- Resume parsing
+- Data preprocessing
+- Model evaluation
